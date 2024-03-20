@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Teoria CSS</title>
+<!--    <style>-->
+<!--        body{-->
+<!--            padding: 20px;-->
+<!--        }-->
+
+<!--        p{-->
+<!--            color: green;-->
+<!--        }-->
+<!--    </style>-->
+    <link rel="stylesheet" href="Aprendendo.css">
+</head>
+<body>
+    <p style="color: red;">paragrafo inline</p>
+    <p>paragrafo internal</p>
+    <p>paragrafo external</p>
+<!--classes e ids-->
+    <h1 id="titulo-principal">titulo da pagina</h1>
+    <p class="meu-paragrafo">algum conteudo do site!</p>
+    <p class="meu-paragrafo">algum conteudo do site!2</p>
+    <p class="meu-paragrafo">algum conteudo do site!3</p>
+    <h2>Testando</h2>
+<!--cores-->
+    <p class="nome-da-cor">rosa</p>
+    <p class="hexa">hexadecimal</p>
+    <p class="rgb">RGB</p>
+<!--fontes-->
+<p class="serifada">fonte serifada</p>
+<p class="sem-serifa">sem serifo</p>
+<p class="mono-espacada">mono espaçada</p>
+<!--size e weight-->
+    <p class="tamanho-fonte-grande">esta fonte esta grande</p>
+    <p class="tamanho-fonte-pequeno">esta fonte esta pequeno</p>
+    <p class="peso-fonte">esta em negrito</p>
+    <p class="texto-italico">esta em italico</p>
+<!--box model-->
+    <div class="box-model">
+        <p>esse é o box model!</p>
+    </div>
+<!--propriedades de texto-->
+    <p class="alinhamento">texto ao centro</p>
+    <p class="tranform-minusculo">TEXTO TODO EM MINUSCULO</p>
+    <p class="tranform-maiuscula">texto todo em maiusculo</p>
+<!--espaçamentos de linhas e letras-->
+<p class="espacamento-texto">texto com espaçamento entre linhas e letras</p>
+<!--links-->
+    <div>
+        <a href="#" class="decoration">meu link-1</a>
+    </div>
+    <div>
+        <a href="https://www.google.com/" class="visitado">meu link-2</a>
+    </div>
+    <div>
+        <a href="#" class="estilo-hover">meu link-3 </a>
+    </div>
+<!--link em button-->
+    <div>
+    <a href="#" class="btn">clique em mim</a>
+    </div>
+<!--listas-->
+    <ul>
+        <li>lista</li>
+        <li>com</li>
+        <li>bullets</li>
+    </ul>
+    <ul class="sem-estilo">
+        <li>lista</li>
+        <li>sem</li>
+        <li>bullets</li>
+    </ul>
+<!--displey-->
+    <div class="inline"></div>
+    <div class="inline"></div>
+    <span class="bloco">teste </span>
+    <span class="bloco">teste 2</span>
+    <div class="inline hidden"></div>
+<!--positions fixed-->
+    <div class="elemento-fixo">este elemento vai ficar fixo na tela</div>
+<!--first child-->
+<div class="primeiro-elemento">
+    <p>este terá estilo</p>
+    <p>este nao</p>
+    <p>este nao</p>
+    <p>este nao</p>
+</div>
+<!--pseudo elementos-->
+<p class="primeira-letra">esta frase começa com uma letra diferente!</p>
+<!--especifidade-->
+    <h2>meu titulo</h2>
+    <h2 class="titulo">meu titulo</h2>
+    <h2 class="titulo" id="meu-titulo-pref">meu titulo</h2>
+</body>
+</html>
